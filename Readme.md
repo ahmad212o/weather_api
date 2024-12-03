@@ -7,6 +7,9 @@ A lightweight FastAPI application for retrieving weather data, travel comparison
 - **Travel**: Compare travel insights across destinations.
 - **Metrics**: Monitor API performance and usage.
 
+## Async API Calls
+This application leverages FastAPI's asynchronous capabilities to provide high-performance, non-blocking API calls.
+
 ## Memory Cache
 
 This API uses an **in-memory caching mechanism** powered by the `aiocache` library. In-memory caching is ideal for **development** and **testing environments** as it stores data temporarily in RAM. 

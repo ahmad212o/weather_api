@@ -14,21 +14,6 @@ This application leverages FastAPI's asynchronous capabilities to provide high-p
 
 This API uses an **in-memory caching mechanism** powered by the `aiocache` library. In-memory caching is ideal for **development** and **testing environments** as it stores data temporarily in RAM. 
 
-### Benefits
-- **Faster Response Times**: Repeated requests for the same data are served directly from the cache, avoiding recomputation or external data fetching.
-- **Reduced Load**: Minimizes the number of API calls or database queries for frequently accessed data, improving performance and efficiency.
-
-### Default Configuration
-The application is preconfigured with `SimpleMemoryCache` using the following settings in `main.py`:
-```python
-caches.set_config({
-    "default": {
-        "cache": "aiocache.SimpleMemoryCache",
-        "serializer": {"class": "aiocache.serializers.JsonSerializer"},
-        "ttl": 3600 
-    }
-})
-```
 ## Requirements
 - Python 3.8+  
 

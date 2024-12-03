@@ -3,21 +3,25 @@
 A production-ready REST API for retrieving historical weather data and travel recommendations based on weather preferences. The API utilizes the Open-Meteo Climate API to provide accurate historical weather information from 2018 to 2023.
 
 ## API Endpoints
+
 **Monthly Weather Profile**
 ```bash
 GET /api/v1/weather/monthly-profile?city={city}&month={month}
 ```
 Returns statistical summary of temperature for the specified month (2018-2023).
+
 **Best Travel Month**
 ```bash
 GET /api/v1/travel/best-month?city={city}&min_temp={min}&max_temp={max}
 ```
 Suggests the best month to visit based on preferred temperature range.
+
 **City Weather Comparison**
 ```bash
 GET /api/v1/travel/compare-cities?cities={city1},{city2},{city3}&month={month}
 ```
 Compares weather conditions for multiple cities (2-5) for a specific month.
+
 **Metrics**
 ```bash
 GET /api/v1/metrics

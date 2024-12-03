@@ -9,7 +9,6 @@ A lightweight FastAPI application for retrieving weather data, travel comparison
 
 ## Requirements
 - Python 3.8+  
-- Redis (optional, for production caching)
 
 ## Setup
 1. Clone the repository and navigate to the directory:

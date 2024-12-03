@@ -22,7 +22,7 @@ caches.set_config({
     "default": {
         "cache": "aiocache.SimpleMemoryCache",
         "serializer": {"class": "aiocache.serializers.JsonSerializer"},
-        "ttl": 3600  # Cache expires in 1 hour
+        "ttl": 3600 
     }
 })
 ```

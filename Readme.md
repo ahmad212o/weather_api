@@ -25,6 +25,7 @@ caches.set_config({
         "ttl": 3600  # Cache expires in 1 hour
     }
 })
+```
 ## Requirements
 - Python 3.8+  
 

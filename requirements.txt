@@ -1,0 +1,7 @@
+aiocache==0.12.3
+aioredis==2.0.0 
+fastapi==0.115.5
+pydantic==2.10.2 
+uvicorn==0.32.1  
+aiohttp==3.10.11  
+async-timeout==5.0.1  

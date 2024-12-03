@@ -1,6 +1,6 @@
 # Weather and Travel API
 
-A lightweight FastAPI application for retrieving weather data, travel comparisons, and tracking metrics.
+A production-ready REST API for retrieving historical weather data and travel recommendations based on weather preferences. The API utilizes the Open-Meteo Climate API to provide accurate historical weather information from 2018 to 2023.
 
 ## Features
 - **Weather**: Fetch monthly weather profiles for cities.
@@ -20,7 +20,7 @@ This API uses an **in-memory caching mechanism** powered by the `aiocache` libra
 ## Setup
 1. Clone the repository and navigate to the directory:
    ```bash
-   git clone <repository-url> && cd <repository-name>
+   git clone git@github.com:ahmad212o/weather_api.git && cd weather_api
 
 2. Create and activate a virtual environment:
    ```bash

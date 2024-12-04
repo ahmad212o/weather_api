@@ -53,5 +53,12 @@ This API uses an **in-memory caching mechanism** powered by the `aiocache` libra
 4. Run the application on ip: 0.0.0.0  port: 8000:
      ```bash
      python main.py
+     ```
+5. (Optional) Run Tests:
+   ```bash
+   cd weather_api/app/tests
+   pytest endpoints_test.py -v
+   ```
+
 
 

@@ -77,7 +77,6 @@ async def calculate_monthly_averages(
             fetch_weather_data(session, coordinates, year, month) for year in years
         ]
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        print(results)
     min_temps = []
     max_temps = []
 
